@@ -19,7 +19,7 @@ def build_report(
 ) -> str:
     ts = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     lines = []
-    lines.append("# NeuroVision AI — Analysis Report")
+    lines.append("# NeuroVox — Analysis Report")
     lines.append("")
     lines.append(f"**Generated:** {ts}")
     lines.append(f"**Input file:** {filename}")

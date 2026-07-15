@@ -1,5 +1,5 @@
 """
-NeuroVision AI — AI-Powered Brain MRI Tumor Analysis
+NeuroVox — AI-Powered Brain MRI Tumor Analysis
 ====================================================
 
 An end-to-end deep learning web app that classifies brain MRI scans into
@@ -36,7 +36,7 @@ from report import build_report
 # Config
 # --------------------------------------------------------------------------- #
 st.set_page_config(
-    page_title="NeuroVision AI — Brain MRI Analysis",
+    page_title="NeuroVox — Brain MRI Analysis",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -106,7 +106,7 @@ metrics = get_metrics()
 # Header
 # --------------------------------------------------------------------------- #
 st.markdown(
-    '<div class="nv-title">🧠 <span class="accent">Neuro</span>Vision AI</div>'
+    '<div class="nv-title">🧠 <span class="accent">Neuro</span>Vox</div>'
     '<div class="nv-sub">AI-Powered Brain MRI Tumor Analysis · '
     'Deep learning · Explainable predictions · Interactive insights</div>',
     unsafe_allow_html=True,
@@ -124,7 +124,7 @@ if not is_real_model:
 # Sidebar
 # --------------------------------------------------------------------------- #
 with st.sidebar:
-    st.markdown("### 🧠 NeuroVision AI")
+    st.markdown("### 🧠 NeuroVox")
     st.caption("AI-powered brain MRI analysis with explainable deep learning.")
     st.divider()
     page = st.radio(
@@ -259,7 +259,7 @@ explainable AI, model evaluation, and ML deployment with Streamlit.
 def page_disclaimer():
     st.subheader("⚠️ Disclaimer")
     st.warning(
-        "NeuroVision AI is an **educational research prototype** built to "
+        "NeuroVox is an **educational research prototype** built to "
         "demonstrate an end-to-end machine learning workflow and explainable AI "
         "in medical imaging. It is **not** a medical device and is **not** "
         "intended for medical diagnosis or clinical decision-making. Always "

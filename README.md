@@ -1,4 +1,4 @@
-# 🧠 NeuroVision AI — AI-Powered Brain MRI Tumor Analysis
+# 🧠 NeuroVox — AI-Powered Brain MRI Tumor Analysis
 
 An end-to-end deep learning web app that analyzes brain MRI scans using **PyTorch** and **ResNet-18**. Built to explore computer vision and explainable AI in medical imaging.
 
@@ -24,7 +24,7 @@ Python · PyTorch · Torchvision · Streamlit · ResNet-18 (transfer learning) �
 ## 📁 Project structure
 
 ```
-NeuroVision-AI/
+NeuroVox/
 ├── app.py                        # Streamlit web app
 ├── model.py                      # ResNet-18 definition + inference
 ├── gradcam.py                    # Grad-CAM explainability
@@ -43,8 +43,8 @@ The app runs **without** trained weights using a random placeholder model (so yo
 ## 🚀 Quickstart (run locally)
 
 ```bash
-git clone https://github.com/<your-username>/NeuroVision-AI.git
-cd NeuroVision-AI
+git clone https://github.com/<your-username>/NeuroVox.git
+cd NeuroVox
 pip install -r requirements.txt
 streamlit run app.py
 ```

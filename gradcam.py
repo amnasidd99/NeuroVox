@@ -1,5 +1,5 @@
 """
-Grad-CAM (Gradient-weighted Class Activation Mapping) for NeuroVision AI.
+Grad-CAM (Gradient-weighted Class Activation Mapping) for NeuroVox.
 
 Produces a heatmap that highlights the regions of the MRI the model relied on
 most when making its prediction. Works on the last convolutional block of

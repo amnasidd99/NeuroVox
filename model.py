@@ -1,5 +1,5 @@
 """
-Model definition and inference utilities for NeuroVision AI.
+Model definition and inference utilities for NeuroVox.
 
 A ResNet-18 (transfer learning) trained to classify brain MRI scans into
 four categories: glioma, meningioma, pituitary tumor, and no tumor.
